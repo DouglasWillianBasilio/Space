@@ -1,5 +1,8 @@
+import './styles/estilosGlobais.scss'
+import PaginaInicial from "./paginas/PaginaInicial";
+
 export default function App() {
   return (
-    <h1>Space Aulas</h1>
+    <PaginaInicial />
   );
 }

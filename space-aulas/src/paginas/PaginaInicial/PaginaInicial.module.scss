@@ -1,38 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,300&display=swap');
-
 main {
     margin: 0 24px;
-}
-
-.principal {
+  }
+   
+  .principal {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 2rem;
-
+   
     &__imagem {
-        width: 88%;
-        img {
-            width: 100%;
-            height: 288px;
-        }
-
-
-    position: relative;
-
-    h1 {
+      width: 88%;
+      img {
+        width: 100%;
+        height: 288px;
+      }
+   
+      position: relative;
+   
+      h1 {
         position: absolute;
         z-index: 1;
         color: #d9d9d9;
         font-size: 2.5rem;
-        font-family: 'Roboto', sans-serif;
+        font-family: "GandhiSansBold";
         width: 401px;
         height: 144px;
         top: 75px;
-        // left: 0px;
-        padding-left: 34px;
+        left: 44px;
+      }
     }
-}
-}
-
-
+  }
+  
+  .galeria {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 17%;
+    margin-top: 1rem;
+  }
+  
